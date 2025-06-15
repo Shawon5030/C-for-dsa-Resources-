@@ -1,0 +1,26 @@
+Official setup instructions link: https://code.visualstudio.com/docs/setup/linux
+
+Step 1: https://code.visualstudio.com/download
+
+Step 2: Go to the folder the file has been downloaded and open a terminal
+
+Step 3: use this command sudo apt install ./<file>.deb   (change <file> with the file name)
+
+Step 4: Install gcc compiler if not installed
+				Command sudo apt install gcc
+				check if install with: gcc --version
+				
+Step 5: install C/C++ and Code Runner Extension.
+
+
+
+
+Optional
+
+To Work with Input Output file
+
+Step 1: Create two files with name "input.txt" and "output.txt" in the same folder
+
+Step 2: Go to terminal -> configure Tasks
+
+Step 3: Change the tasks.json file with the given file
